@@ -29,7 +29,7 @@ body {
 }
 
 .my-photo {
-  width: 370px;
+  width: 240px;
 }
 
 .my-photo-about {
@@ -41,8 +41,8 @@ body {
 }
 
 .about-me-container {
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -61,11 +61,13 @@ body {
   margin-bottom: 20px;
 }
 
+
 .contacts-link {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #434c5a;
+  color: #92959b;
+  text-decoration: none;
 }
 
 .contacts-link:hover,
@@ -113,7 +115,7 @@ body {
 }
 
 .tech-skills-text {
-  color: #d8dadd;
+  color: #92959b;
 }
 
 .soft-skills-container {
@@ -139,7 +141,7 @@ body {
 }
 
 .soft-skills-text {
-  color: #d8dadd;
+  color: #92959b;
 }
 
 .soft-skills-container.socials {
@@ -149,15 +151,14 @@ body {
 .profession {
   font-family: Montserrat;
   color: #ff7011;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 23px;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 45px;
+  font-size: 25px;
   font-weight: 700;
-  line-height: 89px;
 }
 
 .description {
@@ -165,10 +166,11 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin-top: 24px;
+  color: #92959b;
 }
 
 .info-container {
-  margin-bottom: 65px;
+  margin-bottom: 40px;
 }
 
 .about-me-title {
@@ -176,7 +178,6 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 10px;
-  margin-top: 55px;
 }
 
 .project-items {
@@ -194,6 +195,17 @@ body {
   color: #595959;
   font-size: 16px;
   font-weight: 700;
+}
+.project-text_link{
+  color: #595959;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project-text_link:hover,
+.project-text_link:focus {
+  color: #ff7011;
 }
 
 .project-text{
@@ -223,7 +235,7 @@ body {
 }
 
 .project-container {
-  margin-bottom: 55px;
+  margin-bottom: 40px;
 }
 
 .profession-title {
@@ -257,11 +269,15 @@ body {
 }
 
 .profession-duties-item {
-  color: #595959;
+  color: #92959b;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.profession-duties-item_list_none {
+  list-style: none;
 }
 
 .profession-title-second {
