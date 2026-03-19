@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Моє резюме</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+  <div>
+    <aside class="sidebar">
+      <button class="menu-button" data-menu-close>
+        <svg width="40" height="40" aria-label="icon-menu" class="icon-menu">
+          <use href="./img/sprite.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+
+      <img class="my-photo" src="./img/foto.png" alt="Моє фото" width="240" />
+
+      <div class="contacts-container">
+        <h3 class="contacts-title">Контакти</h3>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link" href="tel:+380967181951">
+            +38 096 71 81 951
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link email" href="mailto:novalenkov@ukr.net">
+            novalenkov@ukr.net
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a href="https://www.linkedin.com/in/vladislav-novalenko/" class="contacts-link" target="_blank">
+            Linkedin
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link" href="https://github.com/Vladnova" target="_blank">
+            GitHub
+          </a>
+        </div>
+        <div class="wrap-contacts-link contacts-link">
+          Київ, Україна
+        </div>
+      </div>
+
+      <div class="tech-skills-container">
+        <h3 class="tech-skills-title">Технічні навички</h3>
+        <ul>
+          <li class="tech-skills-item"><span class="tech-skills-text">Node.js / Fastify / Express</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">JavaScript / TypeScript</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">PostgreSQL / Oracle</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">Raw SQL / Knex.js</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">Redis / MongoDB</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">AWS (S3, SQS, Lambda)</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">Docker / Kubernetes</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">RabbitMQ / Microservices</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">RESTful API Design</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">Git / GitHub</span></li>
+          <li class="tech-skills-item"><span class="tech-skills-text">React.js / HTML5 / CSS3</span></li>
+        </ul>
+      </div>
+
+      <div class="soft-skills-container">
+        <h3 class="soft-skill-title">Soft Skills</h3>
+        <ul>
+          <li class="soft-skills-item"><span class="soft-skills-text">Архітектурне мислення</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Вирішення складних проблем</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Командна робота</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Швидке навчання</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Відповідальність</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Чесність</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Відкритість</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">GTD (Getting Things Done)</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Креативність</span></li>
+
+        </ul>
+      </div>
+
+      <div class="soft-skills-container">
+        <h3 class="soft-skill-title">Мови</h3>
+        <ul>
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">Англійська <span class="lang">|</span> <span class="level">elementary</span></span>
+          </li>
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">Українська <span class="lang">|</span> <span class="level">рідна</span></span>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+
+  <div class="about-me-container">
+
+    <button class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-open>
+      <svg width="40" height="40" aria-label="кнока меню" class="icon-menu open">
+        <use href="./img/sprite.svg#icon-menu-open"></use>
+      </svg>
+    </button>
+
+    <div class="info-container">
+      <h2 class="profession">Backend / Fullstack розробник</h2>
+      <img class="my-photo-about" src="./img/foto.jpg" alt="Моє фото" width="340" />
+
+      <h1 class="name">Владислав Новаленко</h1>
+      <p class="description">
+        Я Fullstack розробник з сильним фокусом на backend, маю значний досвід роботи в ДП "Інфотех" з 2021 року.
+        Здобув ступінь магістра комп'ютерних наук зі спеціалізацією "Інженерія програмного забезпечення та штучний інтелект".
+        Мій основний стек технологій включає JavaScript, TypeScript, Node.js, а також роботу з базами даних PostgreSQL та Oracle.
+        Приєднуючись до нової команди, я прагну вдосконалювати свої знання та навички, працюючи над складними та цікавими проєктами з highload-системами.
+        Моя мета — бути корисним та ефективним учасником команди, робити внесок у досягнення спільних результатів та допомагати компанії розвиватися.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="about-me-title">Досвід роботи</h3>
+
+      <div>
+        <h4 class="profession-title">Backend Developer
+          <span class="profession-divider">|</span>
+          <span class="profession-company">ДП "ІНФОТЕХ"</span>
+        </h4>
+        <span class="profession-time">
+            Серпень 2021 - дотепер <span class="profession-divider">|</span> Україна
+          </span>
+        <ul class="profession-duties">
+          <li class="profession-duties-item">Спроєктував та розробив 2 мікросервіси на Node.js (TypeScript).</li>
+          <li class="profession-duties-item">Оптимізував архітектуру та переписав важкі запити на Raw SQL (PostgreSQL, Oracle), що зменшило час їх виконання на 20%.</li>
+          <li class="profession-duties-item">Інтегрував AWS S3 для надійного зберігання медіафайлів користувачів.</li>
+          <li class="profession-duties-item">Написання масштабованого коду з використанням JavaScript та TypeScript</li>
+          <li class="profession-duties-item">Робота в середовищі Node.js та розробка REST API</li>
+          <li class="profession-duties-item">Співпраця з командою для роботи над спільними проєктами</li>
+          <li class="profession-duties-item">Контроль версій та управління кодом за допомогою GitHub</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="profession-title">Fullstack розробник
+          <span class="profession-divider">|</span>
+          <span class="profession-company">Фриланс</span>
+        </h4>
+        <span class="profession-time">
+            Травень 2021 - Серпень 2021 <span class="profession-divider">|</span> Україна
+          </span>
+        <ul class="profession-duties">
+          <li class="profession-duties-item">Створення функціональних вебсайтів за допомогою JS</li>
+          <li class="profession-duties-item">Розробка SPA на React.js та Node.js/Express</li>
+          <li class="profession-duties-item">Використання React.js з TypeScript</li>
+          <li class="profession-duties-item">Робота з REST API та MongoDB</li>
+          <li class="profession-duties-item">Адаптивна верстка</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="about-me-title">Освіта</h3>
+        <ul class="profession-duties">
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">GoIT Neoversity / Woolf</span></h4>
+            <h5 class="profession-title-second">Магістр комп'ютерних наук</h5>
+            <p class="profession-desc" style="margin: 5px 0; font-size: 14px; color: #595959;">Спеціалізація: Інженерія програмного забезпечення та штучний інтелект</p>
+            <span class="profession-time">
+                2023 - 2026
+              </span>
+          </li>
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">GoIT</span></h4>
+            <h5 class="profession-title-second">Fullstack розробник</h5>
+            <span class="profession-time">
+                2020 - 2021
+              </span>
+          </li>
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">КНЕУ імені Вадима Гетьмана</span></h4>
+            <h5 class="profession-title-second">Магістр з фінансового менеджменту</h5>
+            <span class="profession-time">
+                2012 - 2017
+              </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <h3 class="about-me-title">Проєкти</h3>
+      <ol class="project-list">
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://chivapchichi2.github.io/project-foodies-frontend/" target="_blank">
+              Foodies
+            </a>
+          </div>
+          <span class="project-text">Досвід у проєкті:</span>
+          <p class="project-desc"> Проєкт був виконаний командою з 9 осіб за 14 днів.
+            Моя роль полягала в розробці бекенд-маршрутів для завантаження фотографій та їх зберігання в хмарі.
+            Також я реалізував пагінацію, секції header, footer та hero, а також налаштував логування та авторизацію користувачів.
+          </p>
+          <p class="project-text">Технології:</p>
+          <p class="project-desc">
+            Node.js, JavaScript, REST API, HTML5, CSS3/SCSS, React, Redux, Axios, GitHub, CRUD.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/project-foodies-frontend" target="_blank">Посилання на проєкт</a>
+        </li>
+
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://vladnova.github.io/freedomOnWheels/" target="_blank">
+              Freedom On Wheels
+            </a>
+          </div>
+          <span class="project-text">Досвід у проєкті:</span>
+          <p class="project-desc">Цей проєкт був виконаний самостійно.
+            Мої обов'язки включали повний цикл розробки: від верстки до розгортання (deployment).
+          </p>
+          <p class="project-text">Технології:</p>
+          <p class="project-desc">
+            HTML5, CSS3/SCSS, NPM, GitHub, JavaScript, CRUD, AJAX, JSON, REST API.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/freedomOnWheels" target="_blank">Посилання на проєкт</a>
+        </li>
+
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://movieshooks.netlify.app/" target="_blank">
+              Movies
+            </a>
+          </div>
+          <span class="project-text">Досвід у проєкті:</span>
+          <p class="project-desc">Метою було розроблення односторінкового додатка (SPA) для пошуку фільмів.
+            Цей проєкт був виконаний самостійно. Моя роль включала проєктування інтерфейсу користувача та реалізацію fullstack-функціоналу.
+          </p>
+          <p class="project-text">Технології:</p>
+          <p class="project-desc">
+            JavaScript, REST API, React, Redux, React-Router, HTML5, CSS3.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/movies-react" target="_blank">Посилання на проєкт</a>
+        </li>
+
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://lasterprojectgoit.netlify.app/" target="_blank">
+              Tests
+            </a>
+          </div>
+          <span class="project-text">Досвід у проєкті:</span>
+          <p class="project-desc">Метою було розроблення платформи для тестування, де користувачі повинні зареєструватися
+            та підтвердити свою електронну пошту, щоб отримати доступ до тестів. Кожен користувач отримує 12 випадкових
+            тестів і дізнається свої результати після завершення. Цей проєкт включав розробку фронтенду та бекенду,
+            проєктування бази даних та інтеграцію API.
+          </p>
+          <p class="project-text">Технології:</p>
+          <p class="project-desc">
+            Node.js, Express, MongoDB, Mongoose, JavaScript, REST API, Swagger, React, Redux.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/latestProject" target="_blank">Посилання на проєкт</a>
+        </li>
+
+      </ol>
+    </div>
+  </div>
+  <script>
+    const btnMenuOpenRef = document.querySelector('[data-menu-open]');
+    const btnMenuCloseRef = document.querySelector('[data-menu-close]');
+    const menu = document.querySelector('.sidebar');
+
+    btnMenuOpenRef.addEventListener('click', () => {
+      menu.classList.add('is-open')
+    })
+
+    btnMenuCloseRef.addEventListener('click', () => {
+      menu.classList.remove('is-open')
+    })
+
+  </script>
+</body>
+
+</html>
