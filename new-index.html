@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My resume</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+  <div>
+    <aside class="sidebar">
+      <button class="menu-button" data-menu-close>
+        <svg width="40" height="40" aria-label="icon-menu" class="icon-menu">
+          <use href="./img/sprite.svg#icon-menu-close"></use>
+        </svg>
+      </button>
+
+      <img class="my-photo" src="./img/foto.png" alt="My photo" width="240" />
+
+      <div class="contacts-container">
+        <h3 class="contacts-title">Contacts</h3>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link" href="tel:+380967181951">
+            +38 096 71 81 951
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link email" href="mailto:novalenkov@ukr.net">
+            novalenkov@ukr.net
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a href="https://www.linkedin.com/in/vladislav-novalenko/" class="contacts-link" target="_blank">
+            Linkedin
+          </a>
+        </div>
+        <div class="wrap-contacts-link">
+          <a class="contacts-link" href="https://github.com/Vladnova" target="_blank">
+            GitHub
+          </a>
+        </div>
+        <div class="wrap-contacts-link contacts-link">
+          Kyiv, Ukraine
+        </div>
+      </div>
+
+      <div class="tech-skills-container">
+        <h3 class="tech-skills-title">Tech Skills</h3>
+        <ul>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">Node.js / NestJS / Express</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">TypeScript / JavaScript</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">PostgreSQL / Oracle / SQL</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">MongoDB</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">React.js / React Native</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">Redux Toolkit</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">REST API Architecture</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">Git / Gerrit</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">HTML5 / CSS3</span>
+          </li>
+          <li class="tech-skills-item">
+            <span class="tech-skills-text">WebStorm / Stimulsoft</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="soft-skills-container">
+        <h3 class="soft-skill-title">Soft Skills</h3>
+        <ul>
+          <li class="soft-skills-item"><span class="soft-skills-text">System architecture design</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Problem-solving & Debugging</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Team collaboration</span></li>
+          <li class="soft-skills-item"><span class="soft-skills-text">Adaptability & Continuous learning</span></li>
+        </ul>
+      </div>
+
+      <div class="soft-skills-container">
+        <h3 class="soft-skill-title">Languages</h3>
+        <ul>
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">English <span class="lang">|</span> <span class="level">Pre-Intermediate</span></span>
+          </li>
+          <li class="soft-skills-item">
+            <span class="soft-skills-text">Ukrainian <span class="lang">|</span> <span class="level">native</span></span>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+
+  <div class="about-me-container">
+
+    <button class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-open>
+      <svg width="40" height="40" aria-label="кнока меню" class="icon-menu open">
+        <use href="./img/sprite.svg#icon-menu-open"></use>
+      </svg>
+    </button>
+
+    <div class="info-container">
+      <h2 class="profession">Backend / Fullstack Developer</h2>
+      <img class="my-photo-about" src="./img/foto.jpg" alt="My foto" width="340" />
+
+      <h1 class="name">Vladyslav Novalenko</h1>
+      <p class="description">
+        I am a Full Stack / Backend Developer with over 3 years of commercial experience at the State Enterprise "Infotech".
+        Over the last two years, I have specialized in server-side architecture, developing RESTful APIs, and managing relational databases.
+        My core stack includes TypeScript, Node.js, NestJS, PostgreSQL, and Oracle. Recently, as part of my Master's degree, I architected and published
+        a cross-platform mobile application directly to the Apple App Store. I am focused on writing scalable code, optimizing complex database queries, and solving architectural challenges.
+      </p>
+    </div>
+
+    <div class="project-container">
+      <h3 class="about-me-title">Projects</h3>
+      <ol class="project-list">
+
+        <!-- Додано магістерський проєкт на перше місце -->
+        <li class="project-items">
+          <div class="projects-item">
+            <p class="projects-link" >
+              Cross-Platform Mobile Networking App
+            </p>
+          </div>
+          <span class="project-text">Project Experience :</span>
+          <p class="project-desc"> Architected and developed a full-stack mobile application for networking as part of a Master's degree project. Successfully passed the strict review process and was published on the Apple App Store. Designed the scalable backend architecture and integrated artificial intelligence for user data processing.
+          </p>
+          <p class="project-text">Technologies:</p>
+          <p class="project-desc">
+            React Native, Expo, NestJS, Node.js, OpenAI API, TypeScript.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/YouKnow" target="_blank">GitHub Repository / Demo</a> <!-- Замініть # на ваше посилання на гітхаб або відео -->
+        </li>
+
+        <!-- Залишено найсильніший навчальний проєкт -->
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://lasterprojectgoit.netlify.app/" target="_blank">
+              Tests Platform
+            </a>
+          </div>
+          <span class="project-text">Project Experience :</span>
+          <p class="project-desc">The goal was to develop a testing platform where users must register and confirm their email to access tests.
+            Each user receives 12 random tests and gets their results after completion. This project included
+            front-end and back-end development, database design, and API integration.
+          </p>
+          <p class="project-text">Technologies:</p>
+          <p class="project-desc">
+            Node.js, Express, MongoDB, Mongoose, JavaScript, REST API, Swagger, React, Redux.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/latestProject" target="_blank">GitHub Repository</a>
+        </li>
+
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://chivapchichi2.github.io/project-foodies-frontend/" target="_blank">
+              Foodies
+            </a>
+          </div>
+          <span class="project-text">Project Experience :</span>
+          <p class="project-desc"> The project was completed by a team of 9 people within 14 days.
+            My role in this project was developing a back-end route for uploading photos and storing them in the cloud.
+            Also pagination, header, footer, and hero section, as well as logging and user authorization.
+          </p>
+          <p class="project-text">Technologies:</p>
+          <p class="project-desc">
+            Node.js, JavaScript, REST API, HTML5, CSS3/SCSS, React, Redux, Axios, GitHub, CRUD.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/project-foodies-frontend" target="_blank">GitHub Repository</a>
+        </li>
+
+        <li class="project-items">
+          <div class="projects-item">
+            <a class="projects-link" href="https://romansynenko.github.io/olx-project" target="_blank">
+              OLX project
+            </a>
+          </div>
+          <span class="project-text">Project Experience :</span>
+          <p class="project-desc">The project aimed to create a site similar to OLX, allowing users to register, manage personal accounts,
+            and create ads. It was a team effort involving 7 people. My contributions were focused on implementing the front-end
+            functionality and integrating APIs.
+          </p>
+          <p class="project-text">Technologies:</p>
+          <p class="project-desc">
+            HTML5, CSS3/SCSS, WebPack, GitHub, JavaScript, CRUD, REST API, Scrum.
+          </p>
+          <a class="project-text_link" href="https://github.com/Vladnova/olx-project" target="_blank">GitHub Repository</a>
+        </li>
+
+      </ol>
+    </div>
+
+    <div>
+      <h3 class="about-me-title">Work Experience</h3>
+
+      <div>
+        <h4 class="profession-title">Backend / Fullstack Developer
+          <span class="profession-divider">|</span>
+          <span class="profession-company">“INFOTECH” State Enterprise</span>
+        </h4>
+        <span class="profession-time">
+            August 2021 - Present <span class="profession-divider">|</span> Ukraine
+          </span>
+        <ul class="profession-duties">
+          <li class="profession-duties-item">Transitioned from basic frontend development to driving complex backend solutions and database management over the last two years</li>
+          <li class="profession-duties-item">Designed and developed the backend architecture for internal schema repositories using TypeScript and NestJS</li>
+          <li class="profession-duties-item">Wrote and optimized complex relational database queries, including hierarchical data retrieval in Oracle SQL and PostgreSQL</li>
+          <li class="profession-duties-item">Conducted code reviews using Gerrit and maintained efficient team Git workflows</li>
+          <li class="profession-duties-item">Configured and implemented automated report generation using Stimulsoft</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="profession-title">Fullstack Developer
+          <span class="profession-divider">|</span>
+          <span class="profession-company">Freelance</span>
+        </h4>
+        <span class="profession-time">
+            May 2021 - August 2021 <span class="profession-divider">|</span> Ukraine
+          </span>
+        <ul class="profession-duties">
+          <li class="profession-duties-item">Designed functional websites using JavaScript</li>
+          <li class="profession-duties-item">Developed SPAs using React.js and Node.js/Express</li>
+          <li class="profession-duties-item">Built scalable components using React.js with TypeScript</li>
+          <li class="profession-duties-item">Worked with REST APIs and MongoDB for data storage</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="about-me-title">Education</h3>
+        <ul class="profession-duties">
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">GoIT Neoversity / Woolf</span></h4>
+            <h5 class="profession-title-second">Master of Science in Computer Science</h5>
+            <p class="profession-desc" style="margin: 5px 0; font-size: 14px; color: #595959;">Specialization in Software Engineering & Artificial Intelligence</p>
+            <span class="profession-time">
+                2023 - 2026
+              </span>
+          </li>
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">GoIT</span></h4>
+            <h5 class="profession-title-second">Fullstack developer</h5>
+            <span class="profession-time">
+                2020 - 2021
+              </span>
+          </li>
+          <li class="profession-duties-item profession-duties-item_list_none">
+            <h4 span class="profession-company">Kyiv National Economic University named after Vadym Hetman</span></h4>
+            <h5 class="profession-title-second">Master's Degree in Financial Management</h5>
+            <span class="profession-time">
+                2012 - 2017
+              </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    const btnMenuOpenRef = document.querySelector('[data-menu-open]');
+    const btnMenuCloseRef = document.querySelector('[data-menu-close]');
+    const menu = document.querySelector('.sidebar');
+
+    btnMenuOpenRef.addEventListener('click', () => {
+      menu.classList.add('is-open')
+    })
+
+    btnMenuCloseRef.addEventListener('click', () => {
+      menu.classList.remove('is-open')
+    })
+
+  </script>
+</body>
+
+</html>
